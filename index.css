@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    min-height: 100vh;
+    width: 100%;
+   top: -2184px;
+    left: 1565px;
+    background-color: cadetblue;
+}
+/* ---------- NAV bar ----------- */
+nav{
+height: 121px;
+/* background-color: brown; */
+width: 100%;
+}
+/* ----------- Nav top ----------- */
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+/* ----------- Nav down ----------- */
+.down{
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+      font-family: "Pacifico", cursive;
+}
+.l1{
+    font-size: 23px;
+    font-weight: 800px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  border-radius: 6px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+} 
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.r1{
+     display: flex;
+     gap: 30px;
+}
+.r1 p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.searchbar{
+    background-color: white;
+    padding:8px 8px;
+    width: 20%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.searchbar input{
+   border: none;
+    outline: none;
+    padding: 4px;
+}
+input::placeholder{
+  color: black;
+  font-weight: 700;
+}
+.searchbar i{
+  /* margin-top: 5px; */
+}
+.ico{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+/* ---------- mainpage ----------- */
+.mainpage{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;    
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    font-family: "Dancing Script", cursive;
+    z-index: 100;
+}
+/* ---------  main-img  ---------- */
+.container{
+  display: flex;
+  height: 395px;
+  width: 820px;
+  padding: 10px;
+  margin-top: 10px;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+.card {
+  flex: 2;
+  min-width: 70px;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: flex 0.5s ease;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.container:hover .card {
+  flex: 0.8; 
+}
+.container .card:hover {
+  flex:4;
+}
+
+/* ----------- but ------------ */
+.but{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+.but button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 13px 35px;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+   background-color: rgb(0, 0, 0);
+  color: #f0f0f0;
+  border-radius: 30px;
+}
+/* ----------- centerbar ---------- */
+.centerbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  background-color: black;
+  color: #f0f0f0;
+  margin-top: 30px;
+}
+/* -----------summer-------- */
+.frame2{
+  height: 110vh;
+  background-color: aliceblue;
+
+}
+.frame2 h1{
+  text-align: center;
+  padding: 10px;
+}
+.sum{
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 25px; */
+   height: 100vh;
+   width: 100%;
+   background-color: crimson;
+}
+.summerL,.summerR{
+  height: 100vh;
+  width: 40%;
+  justify-content:space-around;
+  background-color: blueviolet;
+}
+.card1{
+  height: 100vh;
+  background-color: rgb(223, 151, 151);
+  justify-content: center;
+  align-items: flex-start;
+}
+.card1 img{
+   width: 540px;
+  height: 436px;
+}
+.cad{
+  display:flex;
+  width: 200px; 
+  height: 200px;
+}
+.count{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  gap: 20px;
+  padding: 10px;
+}
